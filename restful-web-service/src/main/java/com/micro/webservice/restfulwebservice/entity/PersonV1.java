@@ -2,7 +2,7 @@ package com.micro.webservice.restfulwebservice.entity;
 
 public class PersonV1 {
 
-	public PersonV1(String string) {
+	public PersonV1(String name) {
 		this.name = name;
 	}
 
@@ -11,5 +11,7 @@ public class PersonV1 {
 	public String getName() {
 		return name;
 	}
+
+
 
 }
