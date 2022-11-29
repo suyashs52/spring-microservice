@@ -1,10 +1,8 @@
 package com.demo.microservices.currencyexchangeservice.bean;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Convert;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.math.BigDecimal;
 @Entity
 public class CurrencyExchange {
@@ -13,8 +11,9 @@ public class CurrencyExchange {
 
     private Long id;
 
-    @Column(name="currency_from")
+    @Column(name = "currency_from")
     private String from;
+
 
     @Column(name="currency_to")
     private String to;

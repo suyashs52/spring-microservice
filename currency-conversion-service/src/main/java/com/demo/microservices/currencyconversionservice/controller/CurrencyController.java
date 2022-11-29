@@ -1,6 +1,8 @@
 package com.demo.microservices.currencyconversionservice.controller;
 
 import com.demo.microservices.currencyconversionservice.beans.CurrencyConversion;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,8 +19,11 @@ public class CurrencyController {
     @Autowired
     private CurrencyExchangeProxy currencyExchangeProxy;
 
+    Logger logger= LoggerFactory.getLogger(CurrencyController.class);
+
     @GetMapping("/currency-conversion/from/{from}/to/{to}/quantity/{quantity}")
     public CurrencyConversion calculateCurrencyConversion(@PathVariable String from, @PathVariable String to, @PathVariable BigDecimal quantity) {
+      logger.info("calculateCurrencyConversion called with {} to with {} for {}",from,to,quantity);
         HashMap<String, String> uriVariable = new HashMap<>();
         uriVariable.put("from", from);
         uriVariable.put("to", to);
@@ -35,6 +40,9 @@ public class CurrencyController {
 
     @GetMapping("/currency-conversion/feign/from/{from}/to/{to}/quantity/{quantity}")
     public CurrencyConversion calculateCurrencyConversionFeign(@PathVariable String from, @PathVariable String to, @PathVariable BigDecimal quantity) {
+
+        logger.info("calculateCurrencyConversion called with {} to with {} for {}",from,to,quantity);
+
         HashMap<String, String> uriVariable = new HashMap<>();
         uriVariable.put("from", from);
         uriVariable.put("to", to);
