@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.demo.microservices</groupId>
     <artifactId>currency-exchange-service</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>currency-exchange-service</name>
     <description>Demo project for Spring Boot Microservices</description>
     <properties>
@@ -29,12 +29,12 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-circuitbreaker-resilience4j</artifactId>
         </dependency>
-<!--        disable for kubernative -->
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.cloud</groupId>-->
-<!--            <artifactId>spring-cloud-starter-sleuth</artifactId>-->
-<!--            <version>3.1.5</version>-->
-<!--        </dependency>-->
+<!--        disable for kubernative: can be used to generate id for each api  -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-sleuth</artifactId>
+            <version>3.1.5</version>
+        </dependency>
 <!--        <dependency>-->
 <!--            <groupId>org.springframework.cloud</groupId>-->
 <!--            <artifactId>spring-cloud-sleuth-zipkin</artifactId>-->
