@@ -1,0 +1,11 @@
+/Users/suyashkumarsingh/eclipse-workspace/spring-microservice/food-order-architecture/food-ordering-system/food-ordering-system/common/common-domain/src/main/java/com/food/order/domain/valueobject/ProductId.java
+/Users/suyashkumarsingh/eclipse-workspace/spring-microservice/food-order-architecture/food-ordering-system/food-ordering-system/common/common-domain/src/main/java/com/food/order/domain/event/DomainEvent.java
+/Users/suyashkumarsingh/eclipse-workspace/spring-microservice/food-order-architecture/food-ordering-system/food-ordering-system/common/common-domain/src/main/java/com/food/order/domain/exception/DomainException.java
+/Users/suyashkumarsingh/eclipse-workspace/spring-microservice/food-order-architecture/food-ordering-system/food-ordering-system/common/common-domain/src/main/java/com/food/order/domain/valueobject/Money.java
+/Users/suyashkumarsingh/eclipse-workspace/spring-microservice/food-order-architecture/food-ordering-system/food-ordering-system/common/common-domain/src/main/java/com/food/order/domain/valueobject/OrderStatus.java
+/Users/suyashkumarsingh/eclipse-workspace/spring-microservice/food-order-architecture/food-ordering-system/food-ordering-system/common/common-domain/src/main/java/com/food/order/domain/entity/AggregateRoot.java
+/Users/suyashkumarsingh/eclipse-workspace/spring-microservice/food-order-architecture/food-ordering-system/food-ordering-system/common/common-domain/src/main/java/com/food/order/domain/valueobject/ResturantId.java
+/Users/suyashkumarsingh/eclipse-workspace/spring-microservice/food-order-architecture/food-ordering-system/food-ordering-system/common/common-domain/src/main/java/com/food/order/domain/valueobject/BaseId.java
+/Users/suyashkumarsingh/eclipse-workspace/spring-microservice/food-order-architecture/food-ordering-system/food-ordering-system/common/common-domain/src/main/java/com/food/order/domain/valueobject/CustomerId.java
+/Users/suyashkumarsingh/eclipse-workspace/spring-microservice/food-order-architecture/food-ordering-system/food-ordering-system/common/common-domain/src/main/java/com/food/order/domain/valueobject/OrderId.java
+/Users/suyashkumarsingh/eclipse-workspace/spring-microservice/food-order-architecture/food-ordering-system/food-ordering-system/common/common-domain/src/main/java/com/food/order/domain/entity/BaseEntity.java

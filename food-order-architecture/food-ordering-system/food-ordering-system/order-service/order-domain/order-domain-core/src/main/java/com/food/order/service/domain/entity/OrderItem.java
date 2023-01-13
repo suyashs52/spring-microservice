@@ -3,7 +3,7 @@ package com.food.order.service.domain.entity;
 import com.food.order.domain.entity.BaseEntity;
 import com.food.order.domain.valueobject.Money;
 import com.food.order.domain.valueobject.OrderId;
-import com.food.order.domain.valueobject.OrderItemId;
+import com.food.order.service.domain.valueobject.OrderItemId;
 
 public class OrderItem  extends BaseEntity<OrderItemId> {
     private OrderId orderId; //ll change later
